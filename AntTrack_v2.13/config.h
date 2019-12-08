@@ -39,7 +39,7 @@ const char* BT_Slave_Name   =   "Crossfire 1376";  // Example
 //#define Az_Servo_360   // Means the azimuth servo can point in a 360 deg circle, elevation servo 90 deg
                          // Default (comment out #define above) is 180 deg azimuth and 180 deg elevation 
                          
-const uint8_t Heading_Source =  1;  // 1=GPS, 2=Flight Computer, 3=Tracker_Compass   
+const uint8_t Heading_Source =  3;  // 1=GPS, 2=Flight Computer, 3=Tracker_Compass   
                      
 //#define QLRS           // Un-comment if you use the QLRS variant of Mavlink 
 
@@ -328,7 +328,7 @@ const uint8_t Heading_Source =  1;  // 1=GPS, 2=Flight Computer, 3=Tracker_Compa
 //#define Debug_AzEl
 //#define Debug_Servos 
 //#define Debug_LEDs
-//#define Debug_Compass                            
+#define Debug_Compass                            
  
 //#define Debug_Mav_Heartbeat  
 //#define Debug_Mav_GPS   
