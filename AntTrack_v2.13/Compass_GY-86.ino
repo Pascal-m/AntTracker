@@ -10,7 +10,9 @@
   int16_t mx, my, mz;
 //******************************************************************************
 uint8_t Initialise_Compass() {
+  bypass_MPU(); //obligatoir pour acceder a la boussole en i2C
   mag.initialize();
+  
   if(!mag.testConnection()) {
     Debug.println("No HMC5883L compass found!");
     return 0;
@@ -65,3 +67,22 @@ float RadToDeg (float _Rad) {
   return _Rad * 180 / PI;  
 }
 //***************************************************
+
+void bypass_MPU() {
+  //Bypass Mode
+  Wire.beginTransmission(0x68);
+  Wire.write(0x37);
+  Wire.write(0x02);
+  Wire.endTransmission();
+
+  Wire.beginTransmission(0x68);
+  Wire.write(0x6A);
+  Wire.write(0x00);
+  Wire.endTransmission();
+
+  //Disable Sleep Mode
+  Wire.beginTransmission(0x68);
+  Wire.write(0x6B);
+  Wire.write(0x00);
+  Wire.endTransmission();
+}
