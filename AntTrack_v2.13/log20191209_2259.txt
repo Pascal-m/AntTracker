@@ -1,0 +1,983 @@
+22:55:08.396 -> ets Jun  8 2016 00:22:57
+22:55:08.396 -> 
+22:55:08.396 -> rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+22:55:08.396 -> configsip: 0, SPIWP:0xee
+22:55:08.396 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+22:55:08.396 -> mode:DIO, clock div:1
+22:55:08.396 -> load:0x3fff0018,len:4
+22:55:08.396 -> load:0x3fff001c,len:1044
+22:55:08.396 -> load:0x40078000,len:8896
+22:55:08.396 -> load:0x40080400,len:5816
+22:55:08.396 -> entry 0x400806ac
+22:55:10.693 -> Starting up......
+22:55:10.787 -> Target Board is ESP32 Dev Module
+22:55:10.787 -> Mavlink BT In
+22:55:10.834 -> Az = 90.00	 El = 0.00	 hmHdg = 90.00
+22:55:10.834 -> pntAz = 90 El = 0.00 LastGoodpntAz = 90 LastGoodEl = 0 hmHdg = 90.00 azPWM = 1500 elPWM = 2300
+22:55:10.834 -> Heading_Source = Tracker's Own Compass
+22:55:10.880 -> ----- Compass Found -----
+22:55:10.880 -> mag:	-55	12	-561	--------------------------
+22:55:10.880 -> 
+22:55:10.880 -> Display tracker heading for 20 seconds
+22:55:10.880 -> Heading = 167
+22:55:11.865 -> Heading = 74
+22:55:12.896 -> Heading = 69
+22:55:13.880 -> Heading = 69
+22:55:14.865 -> Heading = 70
+22:55:15.896 -> Heading = 71
+22:55:16.880 -> Heading = 73
+22:55:17.865 -> Heading = 74
+22:55:18.896 -> Heading = 75
+22:55:19.880 -> Heading = 76
+22:55:20.865 -> Heading = 76
+22:55:21.896 -> Heading = 75
+22:55:22.880 -> Heading = 75
+22:55:23.865 -> Heading = 75
+22:55:24.896 -> Heading = 75
+22:55:25.880 -> Heading = 73
+22:55:26.912 -> Heading = 72
+22:55:27.896 -> Heading = 70
+22:55:28.880 -> Heading = 69
+22:55:33.521 -> Bluetooth connected!
+22:55:33.662 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:33.662 ->  hb_count=1
+22:55:34.552 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:34.552 ->  hb_count=2
+22:55:35.559 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:35.559 ->  hb_count=3
+22:55:35.559 -> hbGood=true
+22:55:35.981 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=14  GPS status=143  latitude=47.0691808  longitude=-0.8841763  gps alt amsl97  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:36.544 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:36.778 -> gpsGood=true
+22:55:36.778 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884178 ap_amsl=97 ap_alt_ag=97.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:36.778 -> GPS lock good! Push set-home button anytime to start tracking.
+22:55:36.872 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=14  GPS status=143  latitude=47.0691808  longitude=-0.8841777  gps alt amsl97  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:37.622 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:37.622 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884178 ap_amsl=97 ap_alt_ag=97.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:37.622 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=14  GPS status=143  latitude=47.0691808  longitude=-0.8841785  gps alt amsl97  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:38.372 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884179 ap_amsl=97 ap_alt_ag=97.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:38.372 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=14  GPS status=143  latitude=47.0691808  longitude=-0.8841789  gps alt amsl97  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:38.559 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:39.169 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884179 ap_amsl=97 ap_alt_ag=97.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:39.169 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=14  GPS status=143  latitude=47.0691808  longitude=-0.8841791  gps alt amsl97  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:39.544 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:39.966 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884179 ap_amsl=97 ap_alt_ag=97.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:39.966 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=14  GPS status=143  latitude=47.0691808  longitude=-0.8841795  gps alt amsl97  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:40.528 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:40.762 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884179 ap_amsl=97 ap_alt_ag=97.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:40.762 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=14  GPS status=143  latitude=47.0691808  longitude=-0.8841795  gps alt amsl97  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:41.606 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:41.606 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884180 ap_amsl=100 ap_alt_ag=100.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:41.606 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841797  gps alt amsl100  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:42.356 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884180 ap_amsl=100 ap_alt_ag=100.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:42.356 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841799  gps alt amsl100  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:42.544 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:43.200 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884180 ap_amsl=100 ap_alt_ag=100.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:43.200 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841796  gps alt amsl100  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:43.575 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:43.997 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884178 ap_amsl=101 ap_alt_ag=101.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:43.997 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841780  gps alt amsl101  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:44.559 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:44.747 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884176 ap_amsl=101 ap_alt_ag=101.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:44.747 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841763  gps alt amsl101  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:45.637 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:45.637 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884175 ap_amsl=101 ap_alt_ag=101.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:45.637 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841751  gps alt amsl101  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:46.387 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884174 ap_amsl=101 ap_alt_ag=101.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:46.387 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841738  gps alt amsl101  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:46.575 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:47.184 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884172 ap_amsl=101 ap_alt_ag=101.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:47.184 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841724  gps alt amsl101  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:47.559 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:47.981 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884172 ap_amsl=101 ap_alt_ag=101.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:47.981 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841716  gps alt amsl101  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:48.544 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:48.778 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884170 ap_amsl=101 ap_alt_ag=101.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:48.825 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841702  gps alt amsl101  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:49.622 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:49.622 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884169 ap_amsl=101 ap_alt_ag=101.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:49.622 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841695  gps alt amsl101  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:50.372 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884169 ap_amsl=101 ap_alt_ag=101.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:50.372 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841686  gps alt amsl101  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:50.559 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:51.216 -> Mavlink in #33 GPS Int:  ap_lat=47.069174 ap_lon=-0.884168 ap_amsl=101 ap_alt_ag=101.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:51.216 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691744  longitude=-0.8841680  gps alt amsl101  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:51.544 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:52.012 -> Mavlink in #33 GPS Int:  ap_lat=47.069174 ap_lon=-0.884166 ap_amsl=100 ap_alt_ag=100.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:52.012 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691744  longitude=-0.8841661  gps alt amsl100  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:52.575 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:52.762 -> Mavlink in #33 GPS Int:  ap_lat=47.069174 ap_lon=-0.884164 ap_amsl=100 ap_alt_ag=100.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:52.762 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691744  longitude=-0.8841644  gps alt amsl100  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:53.606 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:53.606 -> Mavlink in #33 GPS Int:  ap_lat=47.069174 ap_lon=-0.884163 ap_amsl=101 ap_alt_ag=101.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:53.606 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691744  longitude=-0.8841633  gps alt amsl101  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:54.169 -> Heading = 68
+22:55:54.309 -> Home location set to Lat = 47.0691757 Lon = -0.8841633 Alt = 100 hom.hdg = 68
+22:55:54.309 -> EEPROMWriteLong():  composit=45  one=0  two=0  three=0  four=2D
+22:55:54.309 -> EEPROMWriteLong():  composit=-884163  one=FF  two=F2  three=82  four=3D
+22:55:54.309 -> EEPROMWriteLong():  composit=47069175  one=2  two=CE  three=37  four=F7
+22:55:54.309 -> EEPROMWriteLong():  composit=1000  one=0  two=0  three=3  four=E8
+22:55:54.309 -> EEPROMWriteLong():  composit=680  one=0  two=0  three=2  four=A8
+22:55:54.309 ->   homSaved=0  home.lon=-0.884163  home.lat=47.069176  home.alt=100.0  home.hdg=68.0
+22:55:54.309 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.356 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.356 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.356 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.356 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.356 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.356 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.356 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.356 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.356 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.356 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.403 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.403 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.403 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.403 -> Mavlink in #33 GPS Int:  ap_lat=47.069174 ap_lon=-0.884163 ap_amsl=100 ap_alt_ag=100.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:54.403 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.403 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691744  longitude=-0.8841631  gps alt amsl100  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:54.450 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.450 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.450 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.450 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.450 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.450 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.450 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.450 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.450 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.450 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.497 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.497 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.497 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.497 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.497 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.497 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.497 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.497 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.497 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.497 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.544 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.544 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.544 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.544 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.544 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.544 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.544 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.544 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.544 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.544 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.591 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.591 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.591 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.591 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.591 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:54.591 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.591 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.591 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.591 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.637 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.637 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.637 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.637 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.637 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.637 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.637 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.637 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.637 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.637 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.684 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.684 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.684 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.684 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.684 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.684 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.684 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.684 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.684 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.684 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.731 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.731 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.731 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.731 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.731 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.731 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.731 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.731 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.731 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.731 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.731 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.778 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.778 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.778 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.778 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.778 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.778 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.778 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.778 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.778 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.778 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.825 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.825 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.825 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.825 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.825 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.825 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.825 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.825 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.825 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.825 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.872 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.872 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.872 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.872 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.872 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.872 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.872 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.872 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.872 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.872 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.919 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.966 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.966 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.966 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.966 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.966 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.966 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.966 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.966 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.966 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:54.966 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.012 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.012 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.012 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.012 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.012 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.012 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.012 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.012 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.012 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.012 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.059 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.059 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.059 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.059 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.059 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.059 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.059 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.059 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.059 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.059 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.059 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.106 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.106 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.106 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.106 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.106 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.106 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.106 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.106 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.106 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.106 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.153 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.153 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.153 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.153 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.153 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.153 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.153 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.153 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.153 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.153 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.200 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.200 -> Mavlink in #33 GPS Int:  ap_lat=47.069174 ap_lon=-0.884163 ap_amsl=100 ap_alt_ag=100.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:55.200 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.200 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691744  longitude=-0.8841631  gps alt amsl100  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:55.200 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.200 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.247 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.247 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.247 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.247 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.247 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.247 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.247 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.247 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.247 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.247 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.294 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.294 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.294 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.294 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.294 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.294 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.294 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.294 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.294 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.294 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.341 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.341 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.341 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.341 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.341 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.341 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.341 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.341 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.341 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.341 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.341 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.387 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.387 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.387 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.387 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.387 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.387 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.387 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.387 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.387 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.387 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.434 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.434 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.434 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.434 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.434 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.434 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.434 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.434 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.434 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.434 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.481 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.481 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.481 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.481 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.481 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.481 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.481 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.481 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.481 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.481 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.575 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:55.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.997 -> Mavlink in #33 GPS Int:  ap_lat=47.069174 ap_lon=-0.884164 ap_amsl=100 ap_alt_ag=100.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:55.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.997 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691744  longitude=-0.8841638  gps alt amsl100  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:55.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:55.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.559 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:56.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+
+22:55:56.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.794 -> Mavlink in #33 GPS Int:  ap_lat=47.069174 ap_lon=-0.884164 ap_amsl=100 ap_alt_ag=100.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:56.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.794 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691744  longitude=-0.8841645  gps alt amsl100  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:56.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:56.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+
+22:55:58.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.528 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.575 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+22:55:58.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.575 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.622 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.669 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.716 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.762 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.809 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.856 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.903 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.950 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:58.997 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.044 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.091 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.137 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 -> Mavlink in #33 GPS Int:  ap_lat=47.069181 ap_lon=-0.884164 ap_amsl=100 ap_alt_ag=100.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=655.3
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691808  longitude=-0.8841640  gps alt amsl100  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.184 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.231 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.278 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.325 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.372 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.419 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.466 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.512 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.559 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.606 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.653 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.653 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.653 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.653 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.653 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.653 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.653 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.653 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.653 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.653 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.700 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.700 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.700 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.700 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.700 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.700 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.700 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.700 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.700 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.700 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.747 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.794 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.841 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.887 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.887 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.887 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.887 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.887 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.887 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.887 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.887 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.887 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.887 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.934 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.934 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.934 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.934 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.934 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.934 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.934 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.934 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.934 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.934 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.934 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.981 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.981 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.981 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.981 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.981 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.981 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.981 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.981 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.981 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:55:59.981 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+22:56:00.028 ->  Bad hdg! cur.hdg=655 hom.hdg=68  Packet ignored
+

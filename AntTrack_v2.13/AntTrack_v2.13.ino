@@ -622,7 +622,7 @@ void FinalStoreHome() {
  }
 //***************************************************
 void AutoStoreHome() {
-  #ifdef Debug_Status
+   #ifdef Debug_Status
     Debug.println("homSaved=true");  
   #endif
   hom.lat = cur.lat;
@@ -956,7 +956,7 @@ void SaveHomeToFlash() {
   EEPROMWritelong(2, hom.lat*1E6);
   EEPROMWritelong(3, hom.alt*10);
   EEPROMWritelong(4, hom.hdg*10);  
-  
+  homSaved = true;
 #if defined Debug_All || defined Debug_EEPROM || defined Debug_Time || defined Debug_Home
   Debug.print("  homSaved="); Debug.print(homSaved);
   Debug.print("  home.lon="); Debug.print(hom.lon, 6);
