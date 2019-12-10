@@ -1,0 +1,731 @@
+23:04:28.614 -> Heading = 63
+23:04:29.271 -> ets Jun  8 2016 00:22:57
+23:04:29.271 -> 
+23:04:29.271 -> rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+23:04:29.271 -> configsip: 0, SPIWP:0xee
+23:04:29.271 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+23:04:29.271 -> mode:DIO, clock div:1
+23:04:29.271 -> load:0x3fff0018,len:4
+23:04:29.271 -> load:0x3fff001c,len:1044
+23:04:29.271 -> load:0x40078000,len:8896
+23:04:29.271 -> load:0x40080400,len:5816
+23:04:29.271 -> entry 0x400806ac
+23:04:31.614 -> Starting up......
+23:04:31.661 -> Target Board is ESP32 Dev Module
+23:04:31.708 -> Mavlink BT In
+23:04:31.755 -> Az = 90.00	 El = 0.00	 hmHdg = 90.00
+23:04:31.755 -> pntAz = 90 El = 0.00 LastGoodpntAz = 90 LastGoodEl = 0 hmHdg = 90.00 azPWM = 1500 elPWM = 2300
+23:04:31.755 -> Heading_Source = Tracker's Own Compass
+23:04:31.802 -> ----- Compass Found -----
+23:04:31.802 -> mag:	71	148	-382	--------------------------
+23:04:31.802 -> 
+23:04:31.802 -> Display tracker heading for 20 seconds
+23:04:31.802 -> Heading = 64
+23:04:32.786 -> Heading = 62
+23:04:33.771 -> Heading = 68
+23:04:34.802 -> Heading = 67
+23:04:35.786 -> Heading = 68
+23:04:36.771 -> Heading = 67
+23:04:37.802 -> Heading = 67
+23:04:38.786 -> Heading = 67
+23:04:39.771 -> Heading = 68
+23:04:40.802 -> Heading = 67
+23:04:41.786 -> Heading = 66
+23:04:42.771 -> Heading = 67
+23:04:43.802 -> Heading = 66
+23:04:44.786 -> Heading = 65
+23:04:45.771 -> Heading = 65
+23:04:46.802 -> Heading = 65
+23:04:47.786 -> Heading = 64
+23:04:48.771 -> Heading = 63
+23:04:49.802 -> Heading = 64
+23:04:54.302 -> Bluetooth connected!
+23:04:54.396 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:04:54.396 ->  hb_count=1
+23:04:55.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:04:55.286 ->  hb_count=2
+23:04:56.318 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:04:56.318 ->  hb_count=3
+23:04:56.318 -> hbGood=true
+23:04:56.739 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840711  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:04:57.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:04:57.536 ->  mavlink_msg_global_position_int_get_hdg= 
+23:04:57.536 -> 655
+23:04:57.536 -> gpsGood=true
+23:04:57.536 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884072 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:04:57.536 -> GPS lock good! Push set-home button anytime to start tracking.
+23:04:57.630 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840719  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:04:58.380 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:04:58.380 ->  mavlink_msg_global_position_int_get_hdg= 
+23:04:58.380 -> 655
+23:04:58.380 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884073 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:04:58.380 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840728  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:04:59.177 ->  mavlink_msg_global_position_int_get_hdg= 
+23:04:59.177 -> 655
+23:04:59.177 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884073 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:04:59.177 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840733  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:04:59.318 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:04:59.927 ->  mavlink_msg_global_position_int_get_hdg= 
+23:04:59.927 -> 655
+23:04:59.927 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884073 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:04:59.927 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840734  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:00.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:00.724 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:00.724 -> 655
+23:05:00.724 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884074 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:00.724 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840736  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:01.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:01.521 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:01.521 -> 655
+23:05:01.521 -> Mavlink in #33 GPS Int:  ap_lat=47.069171 ap_lon=-0.884074 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:01.521 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691712  longitude=-0.8840738  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:02.318 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:02.318 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:02.318 -> 655
+23:05:02.318 -> Mavlink in #33 GPS Int:  ap_lat=47.069171 ap_lon=-0.884074 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:02.318 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691712  longitude=-0.8840745  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:03.114 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:03.114 -> 655
+23:05:03.114 -> Mavlink in #33 GPS Int:  ap_lat=47.069171 ap_lon=-0.884074 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:03.114 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691712  longitude=-0.8840738  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:03.114 -> Heading = 64
+23:05:03.255 -> Home location set to Lat = 47.0691719 Lon = -0.8840738 Alt = 86 hom.hdg = 64
+23:05:03.255 -> EEPROMWriteLong():  composit=33  one=0  two=0  three=0  four=21
+23:05:03.255 -> EEPROMWriteLong():  composit=-884073  one=FF  two=F2  three=82  four=97
+23:05:03.255 -> EEPROMWriteLong():  composit=47069171  one=2  two=CE  three=37  four=F3
+23:05:03.349 -> EEPROMWriteLong():  composit=860  one=0  two=0  three=3  four=5C
+23:05:03.349 -> EEPROMWriteLong():  composit=640  one=0  two=0  three=2  four=80
+23:05:03.349 ->   homSaved=1  home.lon=-0.884074  home.lat=47.069172  home.alt=86.0  home.hdg=64.0
+23:05:03.349 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691719 cur.lon = -0.8840738 cur.alt = 86
+23:05:03.349 ->  hc_vector.dist = 0  < minDist = 4
+23:05:03.349 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:03.958 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:03.958 -> 655
+23:05:03.958 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884073 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:03.958 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840727 cur.alt = 86
+23:05:03.958 ->  hc_vector.dist = 0  < minDist = 4
+23:05:03.958 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840727  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:04.333 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:04.755 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:04.755 -> 655
+23:05:04.755 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884072 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:04.755 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840721 cur.alt = 86
+23:05:04.755 ->  hc_vector.dist = 0  < minDist = 4
+23:05:04.755 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840721  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:05.271 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:05.552 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:05.552 -> 655
+23:05:05.552 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884072 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:05.552 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840719 cur.alt = 86
+23:05:05.552 ->  hc_vector.dist = 0  < minDist = 4
+23:05:05.552 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840719  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:06.349 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:06.349 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:06.349 -> 655
+23:05:06.349 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884071 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:06.349 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840714 cur.alt = 86
+23:05:06.349 ->  hc_vector.dist = 0  < minDist = 4
+23:05:06.349 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840714  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:07.099 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:07.099 -> 655
+23:05:07.099 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884071 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:07.099 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840709 cur.alt = 86
+23:05:07.099 ->  hc_vector.dist = 0  < minDist = 4
+23:05:07.099 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840709  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:07.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:07.943 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:07.943 -> 655
+23:05:07.943 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884070 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:07.943 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840704 cur.alt = 86
+23:05:07.943 ->  hc_vector.dist = 0  < minDist = 4
+23:05:07.943 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840704  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:08.271 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:08.786 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:08.786 -> 655
+23:05:08.786 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884070 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:08.786 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840700 cur.alt = 86
+23:05:08.786 ->  hc_vector.dist = 0  < minDist = 4
+23:05:08.786 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840700  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:09.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:09.583 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:09.583 -> 655
+23:05:09.583 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884070 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:09.583 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840699 cur.alt = 86
+23:05:09.583 ->  hc_vector.dist = 0  < minDist = 4
+23:05:09.583 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840699  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:10.427 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:10.427 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:10.427 -> 655
+23:05:10.427 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884069 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:10.427 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840685 cur.alt = 86
+23:05:10.427 ->  hc_vector.dist = 0  < minDist = 4
+23:05:10.427 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840685  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:11.177 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:11.177 -> 655
+23:05:11.177 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884068 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:11.177 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840682 cur.alt = 86
+23:05:11.177 ->  hc_vector.dist = 0  < minDist = 4
+23:05:11.177 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840682  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:11.318 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:11.927 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:11.927 -> 655
+23:05:11.927 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884067 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:11.927 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840672 cur.alt = 86
+23:05:11.927 ->  hc_vector.dist = 0  < minDist = 4
+23:05:11.927 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840672  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:12.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:12.771 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:12.771 -> 655
+23:05:12.771 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884066 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:12.771 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840658 cur.alt = 86
+23:05:12.771 ->  hc_vector.dist = 0  < minDist = 4
+23:05:12.771 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840658  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:13.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:13.521 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:13.521 -> 655
+23:05:13.521 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884065 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:13.521 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840652 cur.alt = 86
+23:05:13.521 ->  hc_vector.dist = 0  < minDist = 4
+23:05:13.521 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840652  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:14.364 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:14.364 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:14.364 -> 655
+23:05:14.364 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884064 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:14.364 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840641 cur.alt = 86
+23:05:14.364 ->  hc_vector.dist = 1  < minDist = 4
+23:05:14.364 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840641  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:15.161 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:15.161 -> 655
+23:05:15.161 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884063 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:15.161 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840629 cur.alt = 86
+23:05:15.161 ->  hc_vector.dist = 1  < minDist = 4
+23:05:15.161 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840629  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:15.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:15.958 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:15.958 -> 655
+23:05:15.958 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884062 ap_amsl=87 ap_alt_ag=87.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:15.958 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840616 cur.alt = 86
+23:05:15.958 ->  hc_vector.dist = 1  < minDist = 4
+23:05:15.958 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840616  gps alt amsl87  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:16.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:16.755 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:16.755 -> 655
+23:05:16.755 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884061 ap_amsl=87 ap_alt_ag=87.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:16.755 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840611 cur.alt = 87
+23:05:16.755 ->  hc_vector.dist = 1  < minDist = 4
+23:05:16.755 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840611  gps alt amsl87  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:17.271 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:17.552 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:17.552 -> 655
+23:05:17.552 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884061 ap_amsl=87 ap_alt_ag=87.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:17.552 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840607 cur.alt = 87
+23:05:17.552 ->  hc_vector.dist = 1  < minDist = 4
+23:05:17.552 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840607  gps alt amsl87  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:18.349 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:18.349 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:18.349 -> 655
+23:05:18.349 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884060 ap_amsl=87 ap_alt_ag=87.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:18.349 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840603 cur.alt = 87
+23:05:18.349 ->  hc_vector.dist = 1  < minDist = 4
+23:05:18.349 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840603  gps alt amsl87  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:19.146 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:19.146 -> 655
+23:05:19.146 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884060 ap_amsl=87 ap_alt_ag=87.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:19.146 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840603 cur.alt = 87
+23:05:19.146 ->  hc_vector.dist = 1  < minDist = 4
+23:05:19.146 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840603  gps alt amsl87  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:19.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:19.943 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:19.943 -> 655
+23:05:19.943 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884060 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:19.943 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840599 cur.alt = 87
+23:05:19.943 ->  hc_vector.dist = 1  < minDist = 4
+23:05:19.943 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840599  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:20.318 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:20.739 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:20.739 -> 655
+23:05:20.739 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884059 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:20.739 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840591 cur.alt = 86
+23:05:20.739 ->  hc_vector.dist = 1  < minDist = 4
+23:05:20.739 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840591  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:21.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:21.536 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:21.536 -> 655
+23:05:21.536 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884058 ap_amsl=87 ap_alt_ag=87.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:21.536 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840582 cur.alt = 86
+23:05:21.536 ->  hc_vector.dist = 1  < minDist = 4
+23:05:21.536 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840582  gps alt amsl87  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:22.380 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:22.380 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:22.380 -> 655
+23:05:22.380 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884057 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:22.380 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840571 cur.alt = 87
+23:05:22.380 ->  hc_vector.dist = 1  < minDist = 4
+23:05:22.380 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840571  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:23.130 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:23.130 -> 655
+23:05:23.130 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884055 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:23.130 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840553 cur.alt = 86
+23:05:23.130 ->  hc_vector.dist = 1  < minDist = 4
+23:05:23.130 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840553  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:23.271 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:23.927 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:23.927 -> 655
+23:05:23.927 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884054 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:23.927 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840541 cur.alt = 86
+23:05:23.927 ->  hc_vector.dist = 1  < minDist = 4
+23:05:23.927 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840541  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:24.255 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:24.724 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:24.724 -> 655
+23:05:24.724 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884052 ap_amsl=79 ap_alt_ag=79.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:24.724 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840523 cur.alt = 86
+23:05:24.724 ->  hc_vector.dist = 1  < minDist = 4
+23:05:24.724 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=14  GPS status=143  latitude=47.0691648  longitude=-0.8840523  gps alt amsl79  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:25.333 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:25.568 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:25.568 -> 655
+23:05:25.568 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884050 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:25.568 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840500 cur.alt = 79
+23:05:25.568 ->  hc_vector.dist = 2  < minDist = 4
+23:05:25.568 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840500  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:26.364 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:26.364 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:26.364 -> 655
+23:05:26.364 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884047 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:26.364 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840472 cur.alt = 86
+23:05:26.364 ->  hc_vector.dist = 2  < minDist = 4
+23:05:26.364 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840472  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:27.208 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:27.208 -> 655
+23:05:27.208 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884046 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:27.208 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840460 cur.alt = 86
+23:05:27.208 ->  hc_vector.dist = 2  < minDist = 4
+23:05:27.208 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840460  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:27.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:27.958 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:27.958 -> 655
+23:05:27.958 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884045 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:27.958 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840449 cur.alt = 86
+23:05:27.958 ->  hc_vector.dist = 2  < minDist = 4
+23:05:27.958 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840449  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:28.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:28.755 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:28.755 -> 655
+23:05:28.755 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884044 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:28.755 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840437 cur.alt = 86
+23:05:28.755 ->  hc_vector.dist = 2  < minDist = 4
+23:05:28.755 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840437  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:29.318 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:29.552 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:29.552 -> 655
+23:05:29.552 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884041 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:29.552 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840415 cur.alt = 86
+23:05:29.552 ->  hc_vector.dist = 2  < minDist = 4
+23:05:29.552 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840415  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:30.349 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:30.349 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:30.349 -> 655
+23:05:30.349 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884040 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:30.349 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840404 cur.alt = 86
+23:05:30.349 ->  hc_vector.dist = 2  < minDist = 4
+23:05:30.349 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840404  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:31.146 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:31.146 -> 655
+23:05:31.146 -> Mavlink in #33 GPS Int:  ap_lat=47.069162 ap_lon=-0.884038 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:31.146 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691605 cur.lon = -0.8840382 cur.alt = 86
+23:05:31.146 ->  hc_vector.dist = 3  < minDist = 4
+23:05:31.146 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691616  longitude=-0.8840382  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:31.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:31.943 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:31.943 -> 655
+23:05:31.943 -> Mavlink in #33 GPS Int:  ap_lat=47.069162 ap_lon=-0.884037 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:31.943 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691605 cur.lon = -0.8840366 cur.alt = 86
+23:05:31.943 ->  hc_vector.dist = 3  < minDist = 4
+23:05:31.943 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691616  longitude=-0.8840366  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:32.271 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:32.739 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:32.739 -> 655
+23:05:32.739 -> Mavlink in #33 GPS Int:  ap_lat=47.069162 ap_lon=-0.884035 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:32.739 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691605 cur.lon = -0.8840355 cur.alt = 86
+23:05:32.739 ->  hc_vector.dist = 3  < minDist = 4
+23:05:32.739 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691616  longitude=-0.8840355  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:33.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:33.536 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:33.536 -> 655
+23:05:33.536 -> Mavlink in #33 GPS Int:  ap_lat=47.069162 ap_lon=-0.884034 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:33.536 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691605 cur.lon = -0.8840336 cur.alt = 86
+23:05:33.536 ->  hc_vector.dist = 3  < minDist = 4
+23:05:33.536 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691616  longitude=-0.8840336  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:34.333 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:34.333 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:34.333 -> 655
+23:05:34.333 -> Mavlink in #33 GPS Int:  ap_lat=47.069162 ap_lon=-0.884032 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:34.333 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691605 cur.lon = -0.8840318 cur.alt = 86
+23:05:34.333 ->  hc_vector.dist = 3  < minDist = 4
+23:05:34.333 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691616  longitude=-0.8840318  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:35.177 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:35.177 -> 655
+23:05:35.177 -> Mavlink in #33 GPS Int:  ap_lat=47.069162 ap_lon=-0.884030 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:35.177 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691605 cur.lon = -0.8840296 cur.alt = 86
+23:05:35.177 ->  hc_vector.dist = 3  < minDist = 4
+23:05:35.177 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691616  longitude=-0.8840296  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:35.271 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:35.974 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:35.974 -> 655
+23:05:35.974 -> Mavlink in #33 GPS Int:  ap_lat=47.069162 ap_lon=-0.884029 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:35.974 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691605 cur.lon = -0.8840291 cur.alt = 86
+23:05:35.974 ->  hc_vector.dist = 3  < minDist = 4
+23:05:35.974 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691616  longitude=-0.8840291  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:36.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:36.818 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:36.818 -> 655
+23:05:36.818 -> Mavlink in #33 GPS Int:  ap_lat=47.069162 ap_lon=-0.884027 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:36.818 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691605 cur.lon = -0.8840272 cur.alt = 86
+23:05:36.818 ->  hc_vector.dist = 3  < minDist = 4
+23:05:36.818 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691616  longitude=-0.8840272  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:37.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:37.568 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:37.568 -> 655
+23:05:37.568 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884026 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:37.568 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840264 cur.alt = 86
+23:05:37.568 ->  hc_vector.dist = 3  < minDist = 4
+23:05:37.568 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840264  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:38.318 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:38.318 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:38.318 -> 655
+23:05:38.318 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884026 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:38.318 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840262 cur.alt = 86
+23:05:38.318 ->  hc_vector.dist = 3  < minDist = 4
+23:05:38.318 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840262  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:39.114 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:39.114 -> 655
+23:05:39.114 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884026 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:39.114 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840256 cur.alt = 86
+23:05:39.114 ->  hc_vector.dist = 3  < minDist = 4
+23:05:39.114 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840256  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:39.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:39.958 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:39.958 -> 655
+23:05:39.958 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884025 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:39.958 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840251 cur.alt = 86
+23:05:39.958 ->  hc_vector.dist = 3  < minDist = 4
+23:05:39.958 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840251  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:40.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:40.755 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:40.755 -> 655
+23:05:40.755 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884023 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:40.755 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840234 cur.alt = 86
+23:05:40.755 ->   hc_vector.az= 111.71  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 68.981
+23:05:40.755 -> Az = 111.71	 El = 0.00	 hmHdg = 64.00
+23:05:40.755 -> pntAz = 137 El = 0.00 LastGoodpntAz = 137 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1082 elPWM = 2300
+23:05:40.755 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840234  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:41.318 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:41.552 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:41.552 -> 655
+23:05:41.552 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884021 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:41.552 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840214 cur.alt = 86
+23:05:41.552 ->   hc_vector.az= 110.96  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 69.778
+23:05:41.552 -> Az = 110.96	 El = 0.00	 hmHdg = 64.00
+23:05:41.552 -> pntAz = 136 El = 0.00 LastGoodpntAz = 136 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1091 elPWM = 2300
+23:05:41.552 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840214  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:42.349 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:42.349 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:42.349 -> 655
+23:05:42.349 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884020 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:42.349 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840198 cur.alt = 86
+23:05:42.349 ->   hc_vector.az= 110.39  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 70.586
+23:05:42.349 -> Az = 110.39	 El = 0.00	 hmHdg = 64.00
+23:05:42.349 -> pntAz = 136 El = 0.00 LastGoodpntAz = 136 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1091 elPWM = 2300
+23:05:42.349 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840198  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:43.146 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:43.146 -> 655
+23:05:43.146 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884019 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:43.146 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840193 cur.alt = 86
+23:05:43.146 ->   hc_vector.az= 110.21  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 71.395
+23:05:43.146 -> Az = 110.21	 El = 0.00	 hmHdg = 64.00
+23:05:43.146 -> pntAz = 136 El = 0.00 LastGoodpntAz = 136 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1091 elPWM = 2300
+23:05:43.146 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840193  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:43.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:43.943 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:43.943 -> 655
+23:05:43.943 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884019 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:43.943 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840190 cur.alt = 86
+23:05:43.943 ->   hc_vector.az= 110.14  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 72.184
+23:05:43.943 -> Az = 110.14	 El = 0.00	 hmHdg = 64.00
+23:05:43.943 -> pntAz = 136 El = 0.00 LastGoodpntAz = 136 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1091 elPWM = 2300
+23:05:43.943 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840190  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:44.271 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:44.739 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:44.739 -> 655
+23:05:44.739 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884018 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:44.739 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840183 cur.alt = 86
+23:05:44.739 ->   hc_vector.az= 109.89  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 72.970
+23:05:44.739 -> Az = 109.89	 El = 0.00	 hmHdg = 64.00
+23:05:44.739 -> pntAz = 135 El = 0.00 LastGoodpntAz = 135 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1100 elPWM = 2300
+23:05:44.739 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840183  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:45.255 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:45.536 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:45.536 -> 655
+23:05:45.536 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884018 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:45.536 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840180 cur.alt = 86
+23:05:45.536 ->   hc_vector.az= 109.80  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 73.786
+23:05:45.536 -> Az = 109.80	 El = 0.00	 hmHdg = 64.00
+23:05:45.536 -> pntAz = 135 El = 0.00 LastGoodpntAz = 135 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1100 elPWM = 2300
+23:05:45.536 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840180  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:46.333 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:46.333 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:46.333 -> 655
+23:05:46.333 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884018 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:46.333 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840183 cur.alt = 86
+23:05:46.333 ->   hc_vector.az= 109.89  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 74.580
+23:05:46.333 -> Az = 109.89	 El = 0.00	 hmHdg = 64.00
+23:05:46.380 -> pntAz = 135 El = 0.00 LastGoodpntAz = 135 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1100 elPWM = 2300
+23:05:46.380 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840183  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:47.177 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:47.177 -> 655
+23:05:47.177 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884018 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:47.177 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840184 cur.alt = 86
+23:05:47.177 ->   hc_vector.az= 109.94  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 75.393
+23:05:47.177 -> Az = 109.94	 El = 0.00	 hmHdg = 64.00
+23:05:47.177 -> pntAz = 135 El = 0.00 LastGoodpntAz = 135 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1100 elPWM = 2300
+23:05:47.177 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840184  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:47.271 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:47.927 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:47.927 -> 655
+23:05:47.927 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884018 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:47.927 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840180 cur.alt = 86
+23:05:47.927 ->   hc_vector.az= 109.80  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 76.185
+23:05:47.927 -> Az = 109.80	 El = 0.00	 hmHdg = 64.00
+23:05:47.927 -> pntAz = 135 El = 0.00 LastGoodpntAz = 135 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1100 elPWM = 2300
+23:05:47.927 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840180  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:48.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:48.724 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:48.724 -> 655
+23:05:48.724 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884018 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:48.724 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840180 cur.alt = 86
+23:05:48.724 ->   hc_vector.az= 109.80  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 76.961
+23:05:48.724 -> Az = 109.80	 El = 0.00	 hmHdg = 64.00
+23:05:48.724 -> pntAz = 135 El = 0.00 LastGoodpntAz = 135 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1100 elPWM = 2300
+23:05:48.724 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840180  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:49.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:49.568 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:49.568 -> 655
+23:05:49.568 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884018 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:49.568 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840180 cur.alt = 86
+23:05:49.568 ->   hc_vector.az= 109.80  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 77.789
+23:05:49.568 -> Az = 109.80	 El = 0.00	 hmHdg = 64.00
+23:05:49.568 -> pntAz = 135 El = 0.00 LastGoodpntAz = 135 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1100 elPWM = 2300
+23:05:49.568 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840180  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:50.364 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:50.364 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:50.364 -> 655
+23:05:50.364 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884019 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:50.364 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840188 cur.alt = 86
+23:05:50.364 ->   hc_vector.az= 110.05  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 78.590
+23:05:50.364 -> Az = 110.05	 El = 0.00	 hmHdg = 64.00
+23:05:50.364 -> pntAz = 136 El = 0.00 LastGoodpntAz = 136 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1091 elPWM = 2300
+23:05:50.364 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840188  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:51.161 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:51.161 -> 655
+23:05:51.161 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884019 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:51.161 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840190 cur.alt = 86
+23:05:51.161 ->   hc_vector.az= 110.14  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 79.381
+23:05:51.161 -> Az = 110.14	 El = 0.00	 hmHdg = 64.00
+23:05:51.161 -> pntAz = 136 El = 0.00 LastGoodpntAz = 136 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1091 elPWM = 2300
+23:05:51.161 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840190  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:51.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:51.958 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:51.958 -> 655
+23:05:51.958 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884018 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:51.958 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840183 cur.alt = 86
+23:05:51.958 ->   hc_vector.az= 109.89  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 80.186
+23:05:51.958 -> Az = 109.89	 El = 0.00	 hmHdg = 64.00
+23:05:51.958 -> pntAz = 135 El = 0.00 LastGoodpntAz = 135 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1100 elPWM = 2300
+23:05:51.958 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840183  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:52.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:52.755 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:52.755 -> 655
+23:05:52.755 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884018 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:52.755 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840180 cur.alt = 86
+23:05:52.755 ->   hc_vector.az= 109.80  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 80.993
+23:05:52.755 -> Az = 109.80	 El = 0.00	 hmHdg = 64.00
+23:05:52.755 -> pntAz = 135 El = 0.00 LastGoodpntAz = 135 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1100 elPWM = 2300
+23:05:52.755 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840180  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:53.318 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:53.552 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:53.552 -> 655
+23:05:53.552 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884019 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:53.552 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840189 cur.alt = 86
+23:05:53.552 ->   hc_vector.az= 110.08  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 81.789
+23:05:53.552 -> Az = 110.08	 El = 0.00	 hmHdg = 64.00
+23:05:53.552 -> pntAz = 136 El = 0.00 LastGoodpntAz = 136 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1091 elPWM = 2300
+23:05:53.552 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840189  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:54.349 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:54.349 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:54.349 -> 655
+23:05:54.349 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.884018 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:54.349 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8840180 cur.alt = 86
+23:05:54.349 ->   hc_vector.az= 109.80  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 82.588
+23:05:54.349 -> Az = 109.80	 El = 0.00	 hmHdg = 64.00
+23:05:54.349 -> pntAz = 135 El = 0.00 LastGoodpntAz = 135 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1100 elPWM = 2300
+23:05:54.349 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8840180  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:55.146 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:55.146 -> 655
+23:05:55.146 -> Mavlink in #33 GPS Int:  ap_lat=47.069146 ap_lon=-0.883997 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:55.146 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691452 cur.lon = -0.8839971 cur.alt = 86
+23:05:55.146 ->   hc_vector.az= 117.61  hc_vector.el= 0.00  hc_vector.dist= 6  Elapsed= 83.373
+23:05:55.146 -> Az = 117.61	 El = 0.00	 hmHdg = 64.00
+23:05:55.146 -> pntAz = 143 El = 0.00 LastGoodpntAz = 143 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1028 elPWM = 2300
+23:05:55.146 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691456  longitude=-0.8839971  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:55.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:55.943 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:55.943 -> 655
+23:05:55.943 -> Mavlink in #33 GPS Int:  ap_lat=47.069146 ap_lon=-0.883980 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:55.943 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691452 cur.lon = -0.8839797 cur.alt = 86
+23:05:55.943 ->   hc_vector.az= 113.08  hc_vector.el= 0.00  hc_vector.dist= 7  Elapsed= 84.185
+23:05:55.943 -> Az = 113.08	 El = 0.00	 hmHdg = 64.00
+23:05:55.943 -> pntAz = 139 El = 0.00 LastGoodpntAz = 139 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1064 elPWM = 2300
+23:05:55.943 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691456  longitude=-0.8839797  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:56.271 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:56.739 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:56.739 -> 655
+23:05:56.739 -> Mavlink in #33 GPS Int:  ap_lat=47.069155 ap_lon=-0.883973 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:56.739 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691566 cur.lon = -0.8839734 cur.alt = 86
+23:05:56.739 ->   hc_vector.az= 101.31  hc_vector.el= 0.00  hc_vector.dist= 7  Elapsed= 84.976
+23:05:56.739 -> Az = 101.31	 El = 0.00	 hmHdg = 64.00
+23:05:56.739 -> pntAz = 127 El = 0.00 LastGoodpntAz = 127 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1171 elPWM = 2300
+23:05:56.739 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691552  longitude=-0.8839734  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:57.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:57.583 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:57.583 -> 655
+23:05:57.583 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.883974 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:57.583 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8839740 cur.alt = 86
+23:05:57.583 ->   hc_vector.az= 98.58  hc_vector.el= 0.00  hc_vector.dist= 7  Elapsed= 85.797
+23:05:57.583 -> Az = 98.58	 El = 0.00	 hmHdg = 64.00
+23:05:57.583 -> pntAz = 124 El = 0.00 LastGoodpntAz = 124 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1197 elPWM = 2300
+23:05:57.583 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8839740  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:58.333 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:58.333 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:58.333 -> 655
+23:05:58.333 -> Mavlink in #33 GPS Int:  ap_lat=47.069174 ap_lon=-0.883975 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:58.333 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691757 cur.lon = -0.8839754 cur.alt = 86
+23:05:58.333 ->   hc_vector.az= 90.00  hc_vector.el= 0.00  hc_vector.dist= 7  Elapsed= 86.595
+23:05:58.333 -> Az = 90.00	 El = 0.00	 hmHdg = 64.00
+23:05:58.380 -> pntAz = 115 El = 0.00 LastGoodpntAz = 115 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1277 elPWM = 2300
+23:05:58.380 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691744  longitude=-0.8839754  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:59.130 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:59.130 -> 655
+23:05:59.130 -> Mavlink in #33 GPS Int:  ap_lat=47.069184 ap_lon=-0.883980 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:59.130 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691833 cur.lon = -0.8839805 cur.alt = 86
+23:05:59.130 ->   hc_vector.az= 80.84  hc_vector.el= 0.00  hc_vector.dist= 7  Elapsed= 87.375
+23:05:59.130 -> Az = 80.84	 El = 0.00	 hmHdg = 64.00
+23:05:59.130 -> pntAz = 106 El = 0.00 LastGoodpntAz = 106 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1357 elPWM = 2300
+23:05:59.130 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691840  longitude=-0.8839805  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:05:59.318 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:05:59.927 ->  mavlink_msg_global_position_int_get_hdg= 
+23:05:59.927 -> 655
+23:05:59.927 -> Mavlink in #33 GPS Int:  ap_lat=47.069194 ap_lon=-0.883981 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:05:59.927 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691948 cur.lon = -0.8839807 cur.alt = 86
+23:05:59.927 ->   hc_vector.az= 69.35  hc_vector.el= 0.00  hc_vector.dist= 7  Elapsed= 88.181
+23:05:59.927 -> Az = 69.35	 El = 0.00	 hmHdg = 64.00
+23:05:59.927 -> pntAz = 95 El = 0.00 LastGoodpntAz = 95 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1455 elPWM = 2300
+23:05:59.927 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691936  longitude=-0.8839807  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:00.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:06:00.771 ->  mavlink_msg_global_position_int_get_hdg= 
+23:06:00.771 -> 655
+23:06:00.771 -> Mavlink in #33 GPS Int:  ap_lat=47.069200 ap_lon=-0.883978 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:06:00.771 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691986 cur.lon = -0.8839781 cur.alt = 86
+23:06:00.771 ->   hc_vector.az= 67.24  hc_vector.el= 0.00  hc_vector.dist= 7  Elapsed= 88.994
+23:06:00.771 -> Az = 67.24	 El = 0.00	 hmHdg = 64.00
+23:06:00.771 -> pntAz = 93 El = 0.00 LastGoodpntAz = 93 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1473 elPWM = 2300
+23:06:00.771 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0692000  longitude=-0.8839781  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:01.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:06:01.568 ->  mavlink_msg_global_position_int_get_hdg= 
+23:06:01.568 -> 655
+23:06:01.568 -> Mavlink in #33 GPS Int:  ap_lat=47.069203 ap_lon=-0.883975 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:06:01.568 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0692024 cur.lon = -0.8839747 cur.alt = 86
+23:06:01.568 ->   hc_vector.az= 67.95  hc_vector.el= 0.00  hc_vector.dist= 8  Elapsed= 89.790
+23:06:01.568 -> Az = 67.95	 El = 0.00	 hmHdg = 64.00
+23:06:01.568 -> pntAz = 93 El = 0.00 LastGoodpntAz = 93 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1473 elPWM = 2300
+23:06:01.568 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0692032  longitude=-0.8839747  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:02.364 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:06:02.364 ->  mavlink_msg_global_position_int_get_hdg= 
+23:06:02.364 -> 655
+23:06:02.364 -> Mavlink in #33 GPS Int:  ap_lat=47.069206 ap_lon=-0.883972 ap_amsl=69 ap_alt_ag=69.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:06:02.364 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0692062 cur.lon = -0.8839717 cur.alt = 86
+23:06:02.364 ->   hc_vector.az= 63.84  hc_vector.el= 0.00  hc_vector.dist= 8  Elapsed= 90.599
+23:06:02.364 -> Az = 63.84	 El = 0.00	 hmHdg = 64.00
+23:06:02.364 -> pntAz = 89 El = 0.00 LastGoodpntAz = 89 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1508 elPWM = 2300
+23:06:02.364 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=14  GPS status=143  latitude=47.0692064  longitude=-0.8839717  gps alt amsl69  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:03.161 ->  mavlink_msg_global_position_int_get_hdg= 
+23:06:03.161 -> 655
+23:06:03.161 -> Mavlink in #33 GPS Int:  ap_lat=47.069206 ap_lon=-0.883995 ap_amsl=86 ap_alt_ag=86.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:06:03.161 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0692062 cur.lon = -0.8839949 cur.alt = 69
+23:06:03.161 ->   hc_vector.az= 57.55  hc_vector.el= -67.40  hc_vector.dist= 7  Elapsed= 91.395
+23:06:03.161 -> Az = 57.55	 El = -67.40	 hmHdg = 64.00
+23:06:03.161 -> pntAz = 83 El = -67.40 LastGoodpntAz = 89 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1508 elPWM = 2300
+23:06:03.161 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0692064  longitude=-0.8839949  gps alt amsl86  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:03.302 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:06:03.958 ->  mavlink_msg_global_position_int_get_hdg= 
+23:06:03.958 -> 655
+23:06:03.958 -> Mavlink in #33 GPS Int:  ap_lat=47.069194 ap_lon=-0.884000 ap_amsl=85 ap_alt_ag=85.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:06:03.958 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691948 cur.lon = -0.8840003 cur.alt = 86
+23:06:03.958 ->   hc_vector.az= 64.47  hc_vector.el= 0.00  hc_vector.dist= 6  Elapsed= 92.179
+23:06:03.958 -> Az = 64.47	 El = 0.00	 hmHdg = 64.00
+23:06:03.958 -> pntAz = 90 El = 0.00 LastGoodpntAz = 90 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1500 elPWM = 2300
+23:06:03.958 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691936  longitude=-0.8840003  gps alt amsl85  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:04.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:06:04.755 ->  mavlink_msg_global_position_int_get_hdg= 
+23:06:04.755 -> 655
+23:06:04.755 -> Mavlink in #33 GPS Int:  ap_lat=47.069187 ap_lon=-0.884001 ap_amsl=68 ap_alt_ag=68.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:06:04.755 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691872 cur.lon = -0.8840012 cur.alt = 85
+23:06:04.755 ->   hc_vector.az= 78.29  hc_vector.el= 0.00  hc_vector.dist= 5  Elapsed= 92.990
+23:06:04.755 -> Az = 78.29	 El = 0.00	 hmHdg = 64.00
+23:06:04.755 -> pntAz = 104 El = 0.00 LastGoodpntAz = 104 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1375 elPWM = 2300
+23:06:04.755 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=14  GPS status=143  latitude=47.0691872  longitude=-0.8840012  gps alt amsl68  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:05.271 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:06:05.552 ->  mavlink_msg_global_position_int_get_hdg= 
+23:06:05.552 -> 655
+23:06:05.552 -> Mavlink in #33 GPS Int:  ap_lat=47.069174 ap_lon=-0.884002 ap_amsl=68 ap_alt_ag=68.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:06:05.552 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691757 cur.lon = -0.8840019 cur.alt = 68
+23:06:05.552 ->   hc_vector.az= 90.00  hc_vector.el= -73.18  hc_vector.dist= 5  Elapsed= 93.771
+23:06:05.552 -> Az = 90.00	 El = -73.18	 hmHdg = 64.00
+23:06:05.552 -> pntAz = 115 El = -73.18 LastGoodpntAz = 104 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1375 elPWM = 2300
+23:06:05.552 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=14  GPS status=143  latitude=47.0691744  longitude=-0.8840019  gps alt amsl68  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:06.349 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:06:06.349 ->  mavlink_msg_global_position_int_get_hdg= 
+23:06:06.349 -> 655
+23:06:06.349 -> Mavlink in #33 GPS Int:  ap_lat=47.069168 ap_lon=-0.884007 ap_amsl=84 ap_alt_ag=84.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:06:06.349 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691681 cur.lon = -0.8840073 cur.alt = 68
+23:06:06.349 ->   hc_vector.az= 94.32  hc_vector.el= -74.34  hc_vector.dist= 5  Elapsed= 94.593
+23:06:06.349 -> Az = 94.32	 El = -74.34	 hmHdg = 64.00
+23:06:06.396 -> pntAz = 120 El = -74.34 LastGoodpntAz = 104 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1375 elPWM = 2300
+23:06:06.396 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691680  longitude=-0.8840073  gps alt amsl84  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:07.146 ->  mavlink_msg_global_position_int_get_hdg= 
+23:06:07.146 -> 655
+23:06:07.146 -> Mavlink in #33 GPS Int:  ap_lat=47.069165 ap_lon=-0.884011 ap_amsl=84 ap_alt_ag=84.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:06:07.146 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691643 cur.lon = -0.8840115 cur.alt = 84
+23:06:07.146 ->   hc_vector.az= 103.58  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 95.366
+23:06:07.146 -> Az = 103.58	 El = 0.00	 hmHdg = 64.00
+23:06:07.146 -> pntAz = 129 El = 0.00 LastGoodpntAz = 129 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1153 elPWM = 2300
+23:06:07.146 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691648  longitude=-0.8840115  gps alt amsl84  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:07.286 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:06:07.943 ->  mavlink_msg_global_position_int_get_hdg= 
+23:06:07.943 -> 655
+23:06:07.943 -> Mavlink in #33 GPS Int:  ap_lat=47.069152 ap_lon=-0.884022 ap_amsl=83 ap_alt_ag=83.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:06:07.943 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691528 cur.lon = -0.8840223 cur.alt = 84
+23:06:07.943 ->   hc_vector.az= 120.32  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 96.185
+23:06:07.943 -> Az = 120.32	 El = 0.00	 hmHdg = 64.00
+23:06:07.943 -> pntAz = 146 El = 0.00 LastGoodpntAz = 146 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1002 elPWM = 2300
+23:06:07.943 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691520  longitude=-0.8840223  gps alt amsl83  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:08.271 -> Mavlink in #0 Heartbeat: ap_type=0  ap_autopilot=8  ap_base_mode=192 ap_custom_mode=0  ap_system_status=4  ap_mavlink_version=3
+23:06:08.739 ->  mavlink_msg_global_position_int_get_hdg= 
+23:06:08.739 -> 655
+23:06:08.739 -> Mavlink in #33 GPS Int:  ap_lat=47.069152 ap_lon=-0.884022 ap_amsl=83 ap_alt_ag=83.0 ap_vx=0.0 ap_vy=0.0 ap_vz=0.0 ap_hdg=6.6
+23:06:08.739 -> hom.lat = 47.0691719 hom.lon = -0.8840738 hom.alt = 86 cur.lat = 47.0691528 cur.lon = -0.8840223 cur.alt = 83
+23:06:08.739 ->   hc_vector.az= 120.32  hc_vector.el= 0.00  hc_vector.dist= 4  Elapsed= 96.983
+23:06:08.739 -> Az = 120.32	 El = 0.00	 hmHdg = 64.00
+23:06:08.739 -> pntAz = 146 El = 0.00 LastGoodpntAz = 146 LastGoodEl = 0 hmHdg = 64.00 azPWM = 1002 elPWM = 2300
+23:06:08.739 -> Mavlink in #24 GPS_RAW_INT: ap_fixtype=3 3D Lock  sats visible=15  GPS status=153  latitude=47.0691520  longitude=-0.8840223  gps alt amsl83  eph (hdop)=0  epv (vdop)=0  vel=655.3  cog=655.3
+23:06:16.380 -> Mavlink timed out!

@@ -320,12 +320,12 @@ const uint8_t Heading_Source =  3;  // 1=GPS, 2=Flight Computer, 3=Tracker_Compa
 
 #define Debug_Minimum    //  Leave this as is unless you need the serial port for something else
 #define Debug_Status
-#define Debug_All
+//#define Debug_All
 //#define Debug_Input
 //#define Debug_Protocol
 
 //#define Debug_Baud
-#define Debug_AzEl
+//#define Debug_AzEl
 //#define Debug_Servos 
 //#define Debug_LEDs
 //#define Debug_Compass                            
@@ -337,7 +337,7 @@ const uint8_t Heading_Source =  3;  // 1=GPS, 2=Flight Computer, 3=Tracker_Compa
 //#define Debug_FrSky
 //#define Debug_LTM
 //#define Debug_MSP
-#define Debug_NMEA_GPS
+//#define Debug_NMEA_GPS
 
 //#define Debug_EEPROM
 //#define Debug_Time 

@@ -44,7 +44,6 @@ int16_t ap_vy;             //  Ground Y Speed (Longitude, positive east), expres
 int16_t ap_vz;             // Ground Z Speed (Altitude, positive down), expressed as m/s * 100
 uint16_t ap_hdg;           // Vehicle heading (yaw angle) in degrees * 100, 0.0..359.99 degrees  
 
-
 // Mavlink varaibles
 uint32_t hb_millis = 0;
 uint16_t  hb_count = 0;
@@ -232,6 +231,10 @@ void Mavlink_Receive() {
           ap_vz = mavlink_msg_global_position_int_get_vz(&msg);               // Ground Z Speed (Altitude, positive down), expressed as m/s * 100
           ap_hdg = mavlink_msg_global_position_int_get_hdg(&msg);             // Vehicle heading (yaw angle) in degrees * 100, 0.0..359.99 degrees          ap_ap_amsl = mavlink_msg_attitude_get_yaw(&msg);                // Yaw angle (rad, -pi..+pi)
           millisGPS = millis();                                               // Time of last good GPS packet
+         ap_hdg = ap_hdg / 100;
+          
+         // Debug.println(" mavlink_msg_global_position_int_get_hdg= "); Debug.print(ap_hdg);
+         // Debug.println(""); 
           #ifdef QLRS
             ap_hdg = ap_hdg * 100;  //  Compensate for QLRS heading already divided by 100
           #endif
