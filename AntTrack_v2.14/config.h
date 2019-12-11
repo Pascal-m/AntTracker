@@ -12,16 +12,16 @@ v2.14 2019-12-11 When Heading _Source == 3 (compass on tracker), don't need to c
 
 // Choose one only of these input channels 
 // How does telemetry enter the tracker?
-#define Telemetry_In  0    // Serial Port (default) - all protocols        
-//#define Telemetry_In  1    // BlueTooth Classic - ESP32 and Mavlink only
+//#define Telemetry_In  0    // Serial Port (default) - all protocols        
+#define Telemetry_In  1    // BlueTooth Classic - ESP32 and Mavlink only
 //#define Telemetry_In  2    // WiFi - ESP32 and Mavlink only
 
 
 // NOTE: The Bluetooth class library uses a great deal of application memory. During Compile/Flash
 //  you may need to select Tools/Partition Scheme: "Minimal SPIFFS (1.9MB APP ...)
 
-//#define BT_Master_Mode true    // Master connects to BT_Slave_Name --- false for BT Slave Mode
-const char* BT_Slave_Name   =   "Crossfire 0277";  // Example
+#define BT_Master_Mode true    // Master connects to BT_Slave_Name --- false for BT Slave Mode
+const char* BT_Slave_Name   =   "Crossfire 1376";  // Example
 
 #define AutoBaud              // UART Serial Only - Auto detect telemetry speed
 
@@ -322,7 +322,7 @@ const uint8_t Heading_Source =  3;  // 1=GPS, 2=Flight Computer, 3=Tracker_Compa
 
 #define Debug_Minimum    //  Leave this as is unless you need the serial port for something else
 #define Debug_Status
-//#define Debug_All
+#define Debug_All
 //#define Debug_Input
 //#define Debug_Protocol
 

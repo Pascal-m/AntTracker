@@ -232,7 +232,7 @@ int16_t LastGoodpntAz = 90;
 int16_t LastGoodEl = 0;
 
 bool ft = true;
-uint8_t minDist = 4;  // dist from home before tracking starts
+uint8_t minDist = 2;  // dist from home before tracking starts
 
 // 3D Location vectors
 struct Location {
